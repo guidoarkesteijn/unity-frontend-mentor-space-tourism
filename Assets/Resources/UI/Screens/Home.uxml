@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Topbar" src="project://database/Assets/Resources/UI/Components/Topbar.uxml?fileID=9197481963319205126&amp;guid=f8e9f12ecbe7b8843ab262de77586f19&amp;type=3#Topbar" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Instance template="Topbar" name="Topbar" />
+    </ui:VisualElement>
+</ui:UXML>
