@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: destinations_nl
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: nl
+  m_SharedData: {fileID: 11400000, guid: 65be2521924323f44b0b90b15139b701, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 18457219072
+    m_Localized: Maan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114846519296
+    m_Localized: Bekijk onze planeet zoals je hem nog nooit hebt gezien. Een perfecte
+      ontspannende reis om het perspectief te herwinnen en verfrist terug te komen.
+      Terwijl je daar bent, kun je wat geschiedenis opsnuiven door de landingsplaatsen
+      van Luna 2 en Apollo 11 te bezoeken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293687447552
+    m_Localized: 384,400 km
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364868980736
+    m_Localized: 3 dagen
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
