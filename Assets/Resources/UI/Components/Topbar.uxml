@@ -1,10 +1,25 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ToggleElement" src="project://database/Assets/Resources/UI/Components/ToggleElement.uxml?fileID=9197481963319205126&amp;guid=57bef381508ddf54abcc0a5db3437ec7&amp;type=3#ToggleElement" />
     <Style src="project://database/Assets/Resources/Stylesheet/Stylesheet.uss?fileID=7433441132597879392&amp;guid=c099c23bb8366cd4c864e2c33f860a55&amp;type=3#Stylesheet" />
-    <ui:VisualElement style="flex-direction: row; margin-left: 55px; align-items: center; justify-content: center; margin-top: 40px;">
+    <ui:VisualElement style="flex-direction: row; margin-left: 55px; align-items: center; justify-content: center; margin-top: 40px; margin-bottom: 25px;">
         <ui:VisualElement name="logo" class="logo" />
         <ui:VisualElement class="line" style="margin-left: 15px; margin-right: 15px;" />
-        <ui:VisualElement>
-            <ui:Label text="00 Home 01 Destintation 03 Crew 04 Technology" display-tooltip-when-elided="true" />
+        <ui:VisualElement style="flex-direction: row; height: 90px; background-color: rgba(151, 151, 151, 0.25);">
+            <ui:Instance template="ToggleElement" name="ToggleElement" style="height: 100%;">
+                <AttributeOverrides element-name="name" text="HOME" />
+            </ui:Instance>
+            <ui:Instance template="ToggleElement" name="ToggleElement" style="height: 100%;">
+                <AttributeOverrides element-name="number" text="01" />
+                <AttributeOverrides element-name="name" text="DESTINATION" key="title-destination" />
+            </ui:Instance>
+            <ui:Instance template="ToggleElement" name="ToggleElement" style="height: 100%;">
+                <AttributeOverrides element-name="number" text="02" />
+                <AttributeOverrides element-name="name" text="CREW" key="title-crew" />
+            </ui:Instance>
+            <ui:Instance template="ToggleElement" name="ToggleElement" style="height: 100%;">
+                <AttributeOverrides element-name="number" text="03" />
+                <AttributeOverrides element-name="name" text="TECHNOLOGY" key="title-technology" />
+            </ui:Instance>
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

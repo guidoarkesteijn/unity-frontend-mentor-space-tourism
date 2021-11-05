@@ -150,7 +150,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.localization": {
-      "version": "1.0.4",
+      "version": "1.0.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -174,7 +174,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "13.0.0",
+      "version": "13.1.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -184,14 +184,14 @@
       }
     },
     "com.unity.render-pipelines.universal": {
-      "version": "13.0.0",
+      "version": "13.1.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.burst": "1.5.0",
-        "com.unity.render-pipelines.core": "13.0.0",
-        "com.unity.shadergraph": "13.0.0"
+        "com.unity.render-pipelines.core": "13.1.0",
+        "com.unity.shadergraph": "13.1.0"
       }
     },
     "com.unity.scriptablebuildpipeline": {
@@ -209,11 +209,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "13.0.0",
+      "version": "13.1.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "13.0.0",
+        "com.unity.render-pipelines.core": "13.1.0",
         "com.unity.searcher": "4.8.0"
       }
     },
@@ -247,7 +247,7 @@
       }
     },
     "com.unity.vectorgraphics": {
-      "version": "2.0.0-preview.17",
+      "version": "2.0.0-preview.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {

@@ -1,6 +1,18 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:Template name="Topbar" src="project://database/Assets/Resources/UI/Components/Topbar.uxml?fileID=9197481963319205126&amp;guid=f8e9f12ecbe7b8843ab262de77586f19&amp;type=3#Topbar" />
-    <ui:VisualElement style="flex-grow: 1;">
+    <ui:Template name="ExploreButton" src="project://database/Assets/Resources/UI/Components/ExploreButton.uxml?fileID=9197481963319205126&amp;guid=2d6a0401058e8e942a8e4cf968be8f0d&amp;type=3#ExploreButton" />
+    <Style src="project://database/Assets/Resources/Stylesheet/Stylesheet.uss?fileID=7433441132597879392&amp;guid=c099c23bb8366cd4c864e2c33f860a55&amp;type=3#Stylesheet" />
+    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;Assets/home/background-home-desktop&apos;);">
         <ui:Instance template="Topbar" name="Topbar" />
+        <ui:VisualElement name="Content" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement style="padding-left: 50px; padding-right: 25px; padding-top: 25px; padding-bottom: 25px; flex-grow: 1; max-width: 50%; justify-content: center;">
+                <LocalizedLabel table="home" key="title" class="h1" style="font-size: 28px; white-space: normal;" />
+                <LocalizedLabel table="home" key="space" class="h2" style="white-space: normal;" />
+                <LocalizedLabel table="home" key="description" class="p" style="flex-wrap: wrap;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; align-items: flex-end; justify-content: flex-end; padding-bottom: 25px; padding-right: 25px; padding-left: 25px; padding-top: 25px; width: 50%;">
+                <ui:Instance template="ExploreButton" name="ExploreButton" style="width: 450px; height: 450px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

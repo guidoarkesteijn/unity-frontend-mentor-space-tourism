@@ -9,3 +9,53 @@
     height: 48px;
     background-image: resource('Assets/shared/logo');
 }
+
+.explore {
+}
+
+.explore:hover {
+    cursor: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=4584671053970592468&guid=9567f1e2bef0fbf4fa59838bb891ece3&type=3#console.warnicon');
+}
+
+.explore:hover > .explore-background {
+    background-color: rgba(255, 255, 255, 0.16);
+    transition-duration: 250ms;
+    scale: 1 1;
+}
+
+.explore > .explore-background {
+    background-color: rgba(255, 255, 255, 0);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    scale: 0 0;
+    transition-duration: 250ms;
+}
+
+.explore-text {
+    flex-grow: 1;
+    -unity-text-align: middle-center;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+}
+
+.h1 {
+    color: rgba(208, 214, 249, 255);
+    font-size: 28px;
+}
+
+.h2 {
+    font-size: 150px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.p {
+    font-size: 18px;
+    color: rgba(208, 214, 249, 255);
+    white-space: normal;
+}
+
+.toggle-text {
+    color: rgba(255, 255, 255, 255);
+}

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/Stylesheet/Stylesheet.uss?fileID=7433441132597879392&amp;guid=c099c23bb8366cd4c864e2c33f860a55&amp;type=3#Stylesheet" />
+    <ui:VisualElement picking-mode="Ignore" class="explore" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement picking-mode="Ignore" class="explore-background" style="position: absolute; left: 1px; top: 1px; right: 1px; bottom: 1px;" />
+        <ui:VisualElement style="border-top-left-radius: 50%; border-bottom-left-radius: 50%; border-top-right-radius: 50%; border-bottom-right-radius: 50%; background-color: rgb(255, 255, 255); width: 60%; height: 60%;">
+            <LocalizedLabel text="&lt;KEY&gt;" key="explore" picking-mode="Ignore" table="home" class="explore-text" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
