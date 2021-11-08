@@ -1,10 +1,10 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Resources/Stylesheet/Stylesheet.uss?fileID=7433441132597879392&amp;guid=c099c23bb8366cd4c864e2c33f860a55&amp;type=3#Stylesheet" />
     <ui:VisualElement style="flex-direction: row; align-items: center; justify-content: center; padding-bottom: 5px; padding-left: 15px; padding-right: 15px; flex-grow: 1;">
-        <ui:VisualElement style="flex-direction: row; height: 100%; align-items: center; justify-content: center;">
+        <ui:VisualElement class="toggle" style="flex-direction: row; height: 100%; align-items: center; justify-content: center;">
             <ui:Label text="00" display-tooltip-when-elided="true" name="number" class="toggle-text" style="-unity-text-align: upper-center; -unity-font-style: bold; padding-right: 5px;" />
             <LocalizedLabel text="&lt;TABLE&gt;/&lt;KEY&gt;" name="name" table="ui" key="title-home" class="toggle-text" />
-            <ui:VisualElement name="line" style="position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background-color: rgb(255, 255, 255);" />
+            <ui:VisualElement name="line" class="toggle-line" style="position: absolute; bottom: 0; left: 0; right: 0; height: 3px;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
